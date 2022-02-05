@@ -1,0 +1,33 @@
+.container {
+  @apply flex flex-col flex-1
+    py-4
+    pl-4
+    h-1/2
+    bg-slate-800
+    border border-slate-700
+    rounded-2xl
+    shadow-md;
+}
+
+.chat {
+  @apply flex flex-col flex-1
+    overflow-y-auto
+    overflow-x-hidden
+    list-none;
+}
+
+.writeMsgContainer {
+  @apply flex flex-row
+    w-full
+    mt-2;
+}
+
+.sendMsgButton {
+  @apply flex items-center justify-center 
+    h-14 w-16
+    mx-4
+    bg-emerald-500
+    rounded-full
+    shadow-sm
+    active:bg-emerald-400;
+}

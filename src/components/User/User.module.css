@@ -1,0 +1,23 @@
+.container {
+  @apply flex flex-1 flex-row items-center
+  cursor-default
+  mt-3 mr-3;
+}
+
+.picContainer {
+  @apply relative
+  mr-4;
+}
+
+.pic {
+  @apply w-16 h-16
+    object-cover
+    rounded-full;
+}
+
+.status {
+  @apply absolute bottom-1 right-0
+    w-3 h-3
+    rounded-full
+    ring-2 ring-slate-800;
+}
